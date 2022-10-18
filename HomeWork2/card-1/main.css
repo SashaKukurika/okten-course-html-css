@@ -1,0 +1,46 @@
+.big-boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+.big-box {
+    display: flex;
+    box-sizing: border-box;
+    height: 250px;
+    width: 200px;
+    border: 1px solid #2f2f2f;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.some-text {
+    display: flex;
+    box-sizing: border-box;
+    height: 110px;
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    overflow: auto;
+}
+
+.button {
+    display: flex;
+    box-sizing: border-box;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #2f2f2f;
+    justify-content: center;
+    align-items: center;
+}
+
+.button h4 {
+    color: #32363a;
+}
