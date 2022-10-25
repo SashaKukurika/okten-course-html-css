@@ -30,8 +30,20 @@ body {
 .divBCDE {
     height: 100%;
     width: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
+.divB{
+    height: 48%;
+    width: 100%;
+}
+.divCDE{
+    height: 48%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .divF {
     height: 100%;
     width: 20%;
@@ -51,5 +63,10 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 30px;
+}
+
+.CDE{
+    height: 100%;
+    width: 32%;
 }
 
