@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    height: 600px;
+    width: 900px;
+    border: #2f2f2f solid 3px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divA {
+    width: 860px;
+    height: 170px;
+}
+
+.divBC {
+    height: 390px;
+    width: 860px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divB {
+    height: 100%;
+    width: 78%;
+}
+
+.divC {
+    height: 100%;
+    width: 20%;
+}
+
+.bg-silver {
+    background: silver;
+    color: #32363a;
+}
+
+.border-radius {
+    border-radius: 3%;
+}
+
+.text-inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
