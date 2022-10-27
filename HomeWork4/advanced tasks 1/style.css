@@ -114,10 +114,18 @@ html, body {
 }
 
 .text-inside {
-    color: red;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.number {
+    color: red;
+}
+
+.text {
+    color: white;
 }
 
 @media screen and (min-width: 0) and (max-width: 900px) {
@@ -137,7 +145,8 @@ html, body {
         box-sizing: border-box;
         margin-top: 10px;
     }
-    .box4{
+
+    .box4 {
         width: 73%;
     }
 
