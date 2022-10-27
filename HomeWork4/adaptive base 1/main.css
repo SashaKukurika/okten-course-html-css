@@ -6,8 +6,8 @@ html, body {
 }
 
 .wrap {
-    height: 90%;
-    width: 60%;
+    height: 99%;
+    width: 99%;
     border: #2f2f2f solid 3px;
     box-sizing: border-box;
     display: flex;
@@ -17,13 +17,13 @@ html, body {
 }
 
 .divA {
-    width: 97%;
+    width: 98%;
     height: 29%;
 }
 
 .divBC {
     height: 66%;
-    width: 97%;
+    width: 98%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ html, body {
 
 .divB {
     height: 100%;
-    width: 78%;
+    width: 78.5%;
 }
 
 .divC {
@@ -55,3 +55,23 @@ html, body {
     font-size: calc(1rem + 1vw);
 }
 
+@media screen and (min-width: 0) and (max-width: 900px) {
+    .divA {
+        height: 19%;
+    }
+
+    .divBC {
+        flex-direction: column;
+        height: 78%;
+    }
+
+    .divB {
+        width: 100%;
+        height: 78.5%;
+    }
+
+    .divC {
+        width: 100%;
+        height: 20%;
+    }
+}
