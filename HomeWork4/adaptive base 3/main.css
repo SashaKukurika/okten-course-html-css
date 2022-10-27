@@ -1,0 +1,120 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    border: #2f2f2f solid 3px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divA {
+    width: 98.5%;
+    height: 30%;
+    box-sizing: border-box;
+}
+
+.divBCDEGF {
+    height: 66%;
+    width: 98.5%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divsix {
+    height: 100%;
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divBCD {
+    height: 49%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divEFG {
+    height: 49%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divH {
+    height: 100%;
+    width: 20%;
+}
+
+.bg-silver {
+    background: silver;
+    color: #32363a;
+}
+
+.border-radius {
+    border-radius: 8px;
+}
+
+.text-inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(1rem + 1vw);
+}
+
+.CDE {
+    height: 100%;
+    width: 32.5%;
+}
+
+@media screen and (min-width: 0) and (max-width: 900px) {
+    .divA {
+        height: 12%;
+        width: 92%;
+    }
+
+    .divBCDEGF {
+        flex-direction: column;
+        height: 70%;
+        width: 92%;
+    }
+
+    .divsix {
+        width: 100%;
+        height: 40%;
+    }
+
+    .divBCD {
+        height: 40%;
+    }
+
+    .divEFG {
+        height: 40%;
+    }
+
+    .CDE {
+        height: 100%;
+        width: 28%;
+    }
+
+    .divH {
+        width: 100%;
+        height: 53%;
+    }
+
+    .border-radius {
+        border-radius: 25px;
+    }
+}
+
