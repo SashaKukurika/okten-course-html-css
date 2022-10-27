@@ -137,6 +137,9 @@ html, body {
         box-sizing: border-box;
         margin-top: 10px;
     }
+    .box4{
+        width: 73%;
+    }
 
     .box6-7 {
         flex-direction: column;
