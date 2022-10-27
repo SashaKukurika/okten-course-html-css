@@ -44,16 +44,76 @@ html, body {
     height: 610px;
     width: 74%;
     background: #865b5b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.box8-9{
+
+.box4-5 {
+    height: 25%;
+    width: 100%;
+    background: #7f2693;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box4 {
+    width: 74%;
+    height: 100%;
+    background: #6a65e2;
+}
+
+.box5 {
+    width: 25%;
+    height: 100%;
+    background: #6a65e2;
+}
+
+.box6-7 {
+    height: 73%;
+    width: 100%;
+    background: #7f2693;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box6 {
+    width: 74%;
+    height: 100%;
+    background: #6a65e2;
+}
+
+.box7 {
+    width: 25%;
+    height: 100%;
+    background: #6a65e2;
+}
+
+.box8-9 {
     height: 200px;
     width: 25%;
     background: #000;
     margin-bottom: 10px;
     box-sizing: border-box;
     margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.box10{
+
+.box8 {
+    height: 48%;
+    width: 100%;
+}
+
+.box9 {
+    height: 48%;
+    width: 100%;
+}
+
+.box10 {
     width: 100%;
     height: 200px;
     background: #180fee;
@@ -64,25 +124,53 @@ html, body {
 }
 
 @media screen and (min-width: 0) and (max-width: 900px) {
-    .box3{
+    .box3 {
         flex-direction: column;
         height: 660px;
     }
-    .box3-in{
+
+    .box3-in {
         width: 100%;
         height: 50px;
     }
-    .box4-7{
+
+    .box4-7 {
         width: 100%;
         height: 600px;
         box-sizing: border-box;
         margin-top: 10px;
     }
-    .box8-9{
+
+    .box6-7 {
+        flex-direction: column;
+    }
+
+    .box6 {
+        width: 100%;
+        height: 67.5%;
+    }
+    .box7 {
+        width: 100%;
+        height: 30%;
+    }
+
+    .box8-9 {
         width: 100%;
         height: 100px;
+        flex-direction: row;
     }
-    .box10{
+
+    .box8 {
+        height: 100%;
+        width: 49%;
+    }
+
+    .box9 {
+        height: 100%;
+        width: 49%;
+    }
+
+    .box10 {
         height: 150px;
     }
 }
