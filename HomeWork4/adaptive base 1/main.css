@@ -57,21 +57,27 @@ html, body {
 
 @media screen and (min-width: 0) and (max-width: 900px) {
     .divA {
-        height: 19%;
+        height: 12%;
+        width: 92%;
     }
 
     .divBC {
         flex-direction: column;
-        height: 78%;
+        height: 70%;
+        width: 92%;
     }
 
     .divB {
         width: 100%;
-        height: 78.5%;
+        height: 75%;
     }
 
     .divC {
         width: 100%;
-        height: 20%;
+        height: 17%;
+    }
+
+    .border-radius {
+        border-radius: 25px;
     }
 }

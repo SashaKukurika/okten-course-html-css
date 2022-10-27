@@ -6,8 +6,8 @@ html, body {
 }
 
 .wrap {
-    height: 90%;
-    width: 58%;
+    height: 100%;
+    width: 100%;
     border: #2f2f2f solid 3px;
     box-sizing: border-box;
     display: flex;
@@ -17,13 +17,14 @@ html, body {
 }
 
 .divA {
-    width: 98%;
+    width: 98.5%;
     height: 30%;
+    box-sizing: border-box;
 }
 
 .divBF {
     height: 66%;
-    width: 98%;
+    width: 98.5%;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -72,6 +73,44 @@ html, body {
 
 .CDE {
     height: 100%;
-    width: 32%;
+    width: 32.5%;
+}
+
+@media screen and (min-width: 0) and (max-width: 900px) {
+    .divA {
+        height: 12%;
+        width: 92%;
+    }
+
+    .divBF {
+        flex-direction: column;
+        height: 70%;
+        width: 92%;
+    }
+
+    .divBCDE {
+        width: 100%;
+        height: 75%;
+    }
+
+    .divB {
+        height: 65%;
+    }
+
+    .divCDE {
+        height: 24%;
+    }
+    .CDE {
+        height: 100%;
+        width: 28%;
+    }
+    .divF {
+        width: 100%;
+        height: 17%;
+    }
+
+    .border-radius {
+        border-radius: 25px;
+    }
 }
 
