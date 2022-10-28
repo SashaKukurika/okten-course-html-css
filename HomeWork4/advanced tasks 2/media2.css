@@ -1,6 +1,17 @@
 @media screen and (min-width: 0) and (max-width: 600px) {
     .box1 {
         height: 4%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .inbox1 {
+        height: 25%;
+        margin: 0;
+    }
+
+    .inbox1-bottom {
+        width: 90%;
     }
 
     .box2 {
@@ -18,6 +29,12 @@
 
     .box4 {
         height: 15%;
+        flex-wrap: wrap;
+    }
+
+    .inbox4 {
+        height: 40%;
+        width: 40%;
     }
 
     .box5 {
@@ -29,6 +46,27 @@
     .box6 {
         width: 100%;
         height: 35%;
+        justify-content: space-evenly;
+    }
+
+    .inbox6-3 {
+        height: 45%;
+        width: 90%;
+        justify-content: space-between;
+
+
+    }
+
+    .box6 > .inbox6-3 > .inbox6 {
+        width: 100%;
+        height: 27%;
+        margin: 0;
+    }
+
+    .inbox6 {
+        height: 45%;
+        width: 90%;
+        margin: 0;
     }
 
     .box7 {

@@ -15,7 +15,8 @@
         height: 20%;
         flex-wrap: wrap;
     }
-    .inbox4{
+
+    .inbox4 {
         height: 40%;
         width: 40%;
     }
@@ -30,21 +31,24 @@
         width: 100%;
         height: 22%;
         flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
     }
-    .inbox6-3{
-        height: 600px;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
+
+    .inbox6-3 {
+        height: 90%;
+        width: 40%;
+        justify-content: space-between;
     }
-    .box6 > .inbox6-3 > .inbox6{
+
+    .box6 > .inbox6-3 > .inbox6 {
         width: 100%;
-        height: 50px;
-        margin-top: 10px;
+        height: 27%;
     }
+
     .inbox6 {
-        width: 80%;
-        height: 50px;
+        width: 40%;
+        height: 90%;
         margin-top: 10px;
     }
 
