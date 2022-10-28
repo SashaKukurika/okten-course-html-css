@@ -13,6 +13,11 @@
 
     .box4 {
         height: 20%;
+        flex-wrap: wrap;
+    }
+    .inbox4{
+        height: 40%;
+        width: 40%;
     }
 
     .box5 {
@@ -24,6 +29,23 @@
     .box6 {
         width: 100%;
         height: 22%;
+        flex-direction: row;
+    }
+    .inbox6-3{
+        height: 600px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box6 > .inbox6-3 > .inbox6{
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .inbox6 {
+        width: 80%;
+        height: 50px;
+        margin-top: 10px;
     }
 
     .box7 {
