@@ -31,6 +31,11 @@ html, body {
     margin: 20px;
 }
 
+.number1 {
+    left: 300%;
+    bottom: 150%;
+}
+
 .box2 {
     width: 10%;
     height: 97.5%;
@@ -45,6 +50,11 @@ html, body {
     height: 2%;
     width: 90%;
     margin-top: 5%;
+}
+
+.number2 {
+    top: 450%;
+    right: 30%;
 }
 
 .box3-7 {
@@ -62,6 +72,12 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.number3 {
+
+    left: 45%;
+    top: 40%;
 }
 
 .inbox3 {
@@ -85,6 +101,11 @@ html, body {
     width: 20%;
 }
 
+.number4 {
+    top: 30%;
+    left: 90%;
+}
+
 .box5 {
     width: 70%;
     height: 60%;
@@ -105,9 +126,14 @@ html, body {
 }
 
 .inbox5-top, .inbox5-top-2, .inbox5-top-3 {
-    width: 40%;
+    width: 44%;
     height: 10%;
-    margin: 5%;
+    margin: 3%;
+}
+
+.number5 {
+    top: 400%;
+    left: 120%;
 }
 
 .inbox5-last {
@@ -145,6 +171,11 @@ html, body {
     margin-top: 10px;
 }
 
+.number6 {
+    top: 200%;
+    left: 105%;
+}
+
 .box7 {
     width: 100%;
     height: 10%;
@@ -160,6 +191,11 @@ html, body {
     width: 90%;
 }
 
+.number7 {
+    left: 40%;
+    top: 55%;
+}
+
 .inbox7-2 {
     height: 30%;
     width: 20%;
@@ -167,6 +203,18 @@ html, body {
 
 .bg-silver {
     background: #e7e7e8;
+}
+
+.number-styles {
+    position: relative;
+    background: #000;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
 }
 
 

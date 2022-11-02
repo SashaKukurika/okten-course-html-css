@@ -10,6 +10,11 @@
         margin: 0;
     }
 
+    .number1 {
+        left: 28%;
+        bottom: 0;
+    }
+
     .inbox1-bottom {
         width: 90%;
     }
@@ -37,6 +42,11 @@
         width: 40%;
     }
 
+    .number4 {
+        top: 95%;
+        left: -16%;
+    }
+
     .box5 {
         width: 100%;
         height: 34%;
@@ -55,6 +65,11 @@
 
     .inbox5-top-2 {
         display: none;
+    }
+
+    .number5 {
+        top: 230%;
+        left: 48%;
     }
 
     .box6 {
@@ -83,7 +98,17 @@
         margin: 0;
     }
 
+    .number6 {
+        top: 300%;
+        left: 48%;
+    }
+
     .box7 {
         height: 5%;
+    }
+
+    .number7 {
+        left: 46%;
+        top: 70%;
     }
 }
