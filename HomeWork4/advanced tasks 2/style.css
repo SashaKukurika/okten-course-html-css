@@ -91,6 +91,28 @@ html, body {
     background: pink;
     border-bottom: 5px solid black;
     border-right: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inbox5 {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inbox5-top, .inbox5-top-2, .inbox5-top-3 {
+    width: 40%;
+    height: 10%;
+    margin: 5%;
+}
+
+.inbox5-last {
+    width: 15%;
+    height: 4%;
 }
 
 .box6 {
